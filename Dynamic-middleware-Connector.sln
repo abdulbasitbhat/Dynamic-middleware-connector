@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsers", "src\Parsers\Pars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorApp", "src\ConnectorApp\ConnectorApp.csproj", "{AD4ECCB8-71AB-4B55-AB6A-14CD3250A51B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils", "src\Utils\utils.csproj", "{711A5396-EB01-4863-B39A-5FE3B434E177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{AD4ECCB8-71AB-4B55-AB6A-14CD3250A51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD4ECCB8-71AB-4B55-AB6A-14CD3250A51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD4ECCB8-71AB-4B55-AB6A-14CD3250A51B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711A5396-EB01-4863-B39A-5FE3B434E177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711A5396-EB01-4863-B39A-5FE3B434E177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711A5396-EB01-4863-B39A-5FE3B434E177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711A5396-EB01-4863-B39A-5FE3B434E177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45EC991F-D8D2-4C4C-95AD-088C0FBEAA3C} = {98CCF6DD-8E75-4D4D-973F-108960A51661}
 		{AD4ECCB8-71AB-4B55-AB6A-14CD3250A51B} = {98CCF6DD-8E75-4D4D-973F-108960A51661}
+		{711A5396-EB01-4863-B39A-5FE3B434E177} = {98CCF6DD-8E75-4D4D-973F-108960A51661}
 	EndGlobalSection
 EndGlobal
